@@ -1,0 +1,33 @@
+body {
+  text-align: center;
+}
+
+img {
+  border-radius: 25px;
+  width: 240px;
+  height: 180px;
+  margin-left: 100px;
+  position: relative;
+  right: 50px;
+}
+
+img:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+h1 {
+	margin: 20px auto 240px;
+	color: #343434;
+	font-weight: normal;
+	font-family: 'Ultra', sans-serif;
+	font-size: 50px;
+  font-weight: 800;
+	line-height: 42px;
+	text-transform: uppercase;
+	text-shadow: 0 2px white, 0 3px #777;
+}
+
+.games {
+  display: flex;
+  flex-direction: column;
+}
